@@ -220,6 +220,7 @@
                font-size: 1.7rem;
                border-radius: 10px;
                cursor: pointer;
+               text-decoration: none;
            }
            
            .center {
@@ -275,10 +276,27 @@
                font-style: italic;
            }
            
-           button {
+           .btn {
                color: rgb(0, 255, 179);
                background-color: red;
                text-align: center;
                width: 60%;
+               /* margin-left: 20%; */
+           }
+           
+           button {
+               color: red;
+               padding: 10px 100px;
+               background-color: green;
+               border-radius: 10px;
+               margin: auto;
                margin-left: 20%;
+           }
+           
+           button:hover {
+               color: red;
+               font-size: 40px;
+               transition: 1s;
+               margin-left: 14%;
+               background-color: transparent;
            }
